@@ -2685,8 +2685,14 @@ input[type="radio"]:focus + label:before {
   font-family: "Font Awesome 5 Brands";
 }
 
-/* Me image */
+.paragraph {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
 
+/* Me image */
 .meImage {
   width: 100%;
   height: 100%;
@@ -4822,4 +4828,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
     visibility: visible;
   }
+}
+
+#myZoom {
+  zoom: 80%;
 }

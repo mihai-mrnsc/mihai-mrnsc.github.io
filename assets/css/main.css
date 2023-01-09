@@ -2692,6 +2692,12 @@ input[type="radio"]:focus + label:before {
   justify-content: center;
 }
 
+.techLogos {
+  width: 30;
+  height: 30;
+  padding: 3px, 3px 3px 3px;
+}
+
 /* Me image */
 .meImage {
   width: 100%;

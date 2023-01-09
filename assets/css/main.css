@@ -2692,11 +2692,10 @@ input[type="radio"]:focus + label:before {
   justify-content: center;
 }
 
-.techLogos {
-  text-decoration: none !important;
-  width: 30;
-  height: 30;
-  padding: 3px, 3px 3px 3px;
+.techLogo.fit {
+  display: block;
+  margin: 2.5rem 0;
+  width: 50;
 }
 
 /* Me image */

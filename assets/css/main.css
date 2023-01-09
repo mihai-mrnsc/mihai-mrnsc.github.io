@@ -2693,6 +2693,7 @@ input[type="radio"]:focus + label:before {
 }
 
 .techLogos {
+  text-decoration: none !important;
   width: 30;
   height: 30;
   padding: 3px, 3px 3px 3px;

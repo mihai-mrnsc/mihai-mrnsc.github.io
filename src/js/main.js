@@ -25,7 +25,7 @@
 // -------------------------------
 const projectsContainer = document.querySelector('.projects');
 
-fetch('https://api.github.com/users/mihai-mrnsc/repos')
+fetch('https://api.github.com/users/mihai-mrnsc/repos?sort=created&direction=desc')
   .then(res => res.json())
   .then(repos => {
     repos

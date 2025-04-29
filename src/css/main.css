@@ -136,6 +136,17 @@ a.button {
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  .header-left {
+    text-align: left;
+    width: 100%;
+  }
+
   #hamburger {
     display: block;
     position: absolute;
@@ -163,10 +174,6 @@ a.button {
       flex-direction: column;
       align-items: center;
       gap: 20px;
-    }
-
-    header {
-      position: relative;
     }
   }
 
